@@ -10,7 +10,7 @@ def keyPressed(key):
             print("Cannot get char")
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     listener = keyboard.Listener(on_press=keyPressed)
     listener.start()
     input()
